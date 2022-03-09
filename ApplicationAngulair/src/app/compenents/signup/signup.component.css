@@ -1,10 +1,21 @@
-button{
-    background-color: aqua;
-}
 .form{
-    width: 50%;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px red;
+}
+button{
+    background-color: #fbfeff;
+    color: rgb(8, 32, 78);
+    border: none;
+  
+
+    
+}
+
+form{
+    background-color: rgb(8, 32, 78);
+   border-radius:  1em;
+    margin-top: 7em;
+
 }

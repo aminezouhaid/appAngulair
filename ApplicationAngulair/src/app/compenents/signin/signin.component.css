@@ -1,0 +1,23 @@
+.form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #fbfeff;
+    color: rgb(8, 32, 78);
+    border: none;
+  
+
+    
+}
+button :hover{
+    background-color: #095974;
+    color:white;
+}
+form{
+    border-radius: 1em;
+    background-color: rgb(8, 32, 78);
+    margin-top: 7em;
+}

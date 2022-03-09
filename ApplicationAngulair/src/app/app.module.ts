@@ -12,7 +12,12 @@ import { UploadfilesComponent } from './compenents/uploadfiles/uploadfiles.compo
 import { TasksComponent } from './compenents/tasks/tasks.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-
+import { 
+	IgxPieChartModule,
+	IgxLegendModule,
+	IgxItemLegendModule
+ } from "igniteui-angular-charts";
+import { NgApexchartsModule } from 'ng-apexcharts';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +34,14 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    IgxPieChartModule,
+   IgxLegendModule,
+    IgxItemLegendModule,
+    NgApexchartsModule
+    
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
