@@ -5,12 +5,21 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse  "  id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mr-6 mt-lg-0 d-flex ">
+        <ul class="navbar-nav mr-auto mr-6 mt-lg-0 d-flex justify-center ">
             <li class="nav-item active">
-                <a [routerLink]="['/']" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a [routerLink]="['/']"class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a [routerLink]="['/signin']" class="nav-link" >Login <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a [routerLink]="['/dashbord']" class="nav-link" >Dashboard<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a [routerLink]="['/uploadfiles']" class="nav-link" >Upload<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a [routerLink]="['/datatable']" class="nav-link" >DataTable<span class="sr-only">(current)</span></a>
             </li>
           
         </ul>
