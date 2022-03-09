@@ -5,10 +5,9 @@
     align-items: center;
 }
 button{
-    background-color: #fbfeff;
-    color: rgb(8, 32, 78);
+    background-color: #2343d0;
+    color: rgb(252, 253, 255);
     border: none;
-  
 
     
 }
@@ -18,4 +17,15 @@ form{
    border-radius:  1em;
     margin-top: 7em;
 
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.signin{
+    text-decoration: none;
+    color: white;
 }
