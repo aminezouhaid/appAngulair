@@ -16,7 +16,7 @@ export class TasksComponent implements OnInit {
    }
  
  getTasks() {
-   this.taskService.findall()
+   this.taskService.getTasks()
    .subscribe(tasks =>this.tasks= tasks )
  }
  
