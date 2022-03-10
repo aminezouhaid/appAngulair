@@ -1,12 +1,12 @@
-<div class="form">
+<div class="form" [formGroup]="LoginForm" (ngSubmit)="signin()">
   <form class="text-center border border-dark p-5">
   
       <p class="b4 mb-4 text-light" >Sign In</p>
       
       
-      <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+      <input  formControlName="email" type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
   
-      <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+      <input  formControlName="password" type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
       <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
         At least 8 characters and 1 digit
       </small>
