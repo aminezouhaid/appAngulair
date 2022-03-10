@@ -25,7 +25,7 @@ this.http.get<any>("http://localhost:3000/signupUser").subscribe(res=>{
   if(user){
     alert("Succes");
     this.LoginForm.reset();
-    this.router.navigate(['dashbord']);
+    this.router.navigate(['datatable']);
 
   }else{
      alert("User not register");
