@@ -3,6 +3,10 @@
     {
       "file": "C:\\fakepath\\c18dfba96b364d358ef3f2b2174636fe.jpg",
       "id": 1
+    },
+    {
+      "file": "C:\\fakepath\\c18dfba96b364d358ef3f2b2174636fe.jpg",
+      "id": 2
     }
   ],
   "signupUser": [
@@ -82,26 +86,87 @@
       "email": "",
       "password": "",
       "id": 11
+    },
+    {
+      "firstname": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "firstname": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 13
     }
   ],
   "tasks": [
     {
       "id": 1,
       "label": "hello world ",
-      "age": 25,
       "completed": false
     },
     {
       "id": 2,
       "label": "wellcome AMINE ",
-      "age": 80,
       "completed": true
     },
     {
       "id": 3,
       "label": "wellcome Hicham ",
-      "age": 30,
       "completed": true
+    },
+    {
+      "label": "",
+      "completed": "",
+      "id": 4
+    },
+    {
+      "label": "aaaaaaaaaaaa",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "label": "Khadijaa",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "label": "Khadijaa",
+      "completed": true,
+      "id": 7
+    },
+    {
+      "label": "hicham indatacore",
+      "completed": true,
+      "id": 8
+    },
+    {
+      "label": "soufian ",
+      "completed": true,
+      "id": 9
+    },
+    {
+      "label": "fatih",
+      "completed": "",
+      "id": 10
+    },
+    {
+      "label": "aaaaaaaaaaaa",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "label": "Khadijaa",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "label": "hicham indatacore",
+      "completed": "",
+      "id": 13
     }
   ]
 }
