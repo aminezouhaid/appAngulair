@@ -1,28 +1,52 @@
 {
-
-    "signupUser":[
-    ],
-    "tasks":[
-        {
-            "id":1,
-            "label":"hello world ",
-            "age":25,
-            "completed":false
-        
-        },
-        {
-            "id":2,
-            "label":"wellcome AMINE ",
-            "age":80,
-            "completed":true
-        
-        },
-        {
-            "id":3,
-            "label":"wellcome Hicham ",
-            "age":30,
-            "completed":true
-        
-        }
-    ]
+  "signupUser": [
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "label": "hello world ",
+      "age": 25,
+      "completed": false
+    },
+    {
+      "id": 2,
+      "label": "wellcome AMINE ",
+      "age": 80,
+      "completed": true
+    },
+    {
+      "id": 3,
+      "label": "wellcome Hicham ",
+      "age": 30,
+      "completed": true
+    }
+  ]
 }

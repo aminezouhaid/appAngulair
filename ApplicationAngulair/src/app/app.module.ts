@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './compenents/navbar/navbar.component';
@@ -11,13 +10,16 @@ import { DatatableComponent } from './compenents/datatable/datatable.component';
 import { UploadfilesComponent } from './compenents/uploadfiles/uploadfiles.component';
 import { TasksComponent } from './compenents/tasks/tasks.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { 
 	IgxPieChartModule,
 	IgxLegendModule,
 	IgxItemLegendModule
  } from "igniteui-angular-charts";
 import { NgApexchartsModule } from 'ng-apexcharts';
+// import { ChartsComponent } from './compenents/charts/charts.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +30,7 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     DatatableComponent,
     UploadfilesComponent,
     TasksComponent,
+    // ChartsComponent,
     
   ],
   imports: [
@@ -38,12 +41,15 @@ import { NgApexchartsModule } from 'ng-apexcharts';
     IgxPieChartModule,
    IgxLegendModule,
     IgxItemLegendModule,
-    NgApexchartsModule
-    
+    NgApexchartsModule,
+    ReactiveFormsModule
+
+  
+  
     
     
   ],
-  providers: [],
+  providers: [ FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
