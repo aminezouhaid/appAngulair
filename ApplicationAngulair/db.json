@@ -1,4 +1,10 @@
 {
+  "upload": [
+    {
+      "file": "C:\\fakepath\\c18dfba96b364d358ef3f2b2174636fe.jpg",
+      "id": 1
+    }
+  ],
   "signupUser": [
     {
       "firstName": "",
@@ -69,6 +75,13 @@
       "email": "",
       "password": "",
       "id": 10
+    },
+    {
+      "firstname": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 11
     }
   ],
   "tasks": [
