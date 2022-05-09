@@ -7,6 +7,10 @@
     {
       "file": "C:\\fakepath\\c18dfba96b364d358ef3f2b2174636fe.jpg",
       "id": 2
+    },
+    {
+      "file": "C:\\fakepath\\2.jpg.png",
+      "id": 3
     }
   ],
   "signupUser": [
@@ -100,6 +104,13 @@
       "email": "",
       "password": "",
       "id": 13
+    },
+    {
+      "firstname": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": 14
     }
   ],
   "tasks": [
@@ -167,6 +178,16 @@
       "label": "hicham indatacore",
       "completed": "",
       "id": 13
+    },
+    {
+      "label": "aaaaaaaaaaaa",
+      "completed": true,
+      "id": 14
+    },
+    {
+      "label": "aaaaaaaaaaaa",
+      "completed": false,
+      "id": 15
     }
   ]
 }
