@@ -1,0 +1,29 @@
+.form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: #2343d0;
+    color: rgb(252, 253, 255);
+    border: none;
+  
+
+    
+}
+
+form{
+    border-radius: 1em;
+    background-color: rgb(8, 32, 78);
+    margin-top: 7em;
+}
+.signin{
+    text-decoration: none;
+    color: white;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+
+!
+
+<div class="form" [formGroup]="signupForm"(ngSubmit)="signup()" >
+<form    class="text-center border border-dark p-5" >
+
+    <p class="b4 mb-4 text-light" >Sign up</p>
+    <div class="form-row mb-4">
+        <div class="col">
+          
+          <input formControlName="firstname" type="text"class="form-control" placeholder="First name">
+        </div>
+
+        <div class="col">
+            <!-- Last name -->
+            <input  formControlName="email"type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+          </div>
+    </div>
+    <input  formControlName="email"  type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <input  name="password"   type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+    <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+      At least 8 characters and 1 digit
+    </small>
+<div class="all"> 
+    <button block="true" class="my-4"  type="submit">Sign Up</button>
+    <a class="signin" routerLink="/signin" routerLinkActive="router-link-active" >  already have account Signin</a>
+  </div>
+</form>
+
+</div>

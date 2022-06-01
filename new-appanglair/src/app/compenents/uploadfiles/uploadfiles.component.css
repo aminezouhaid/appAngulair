@@ -1,0 +1,28 @@
+form{
+    width: 50%;
+    border: solid 2px black;
+    padding: 2em;
+    border-radius: 1em;
+  
+
+}
+
+.all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(7, 90, 223);
+    color: white;
+    margin-top: 2em;
+}
+.all2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
